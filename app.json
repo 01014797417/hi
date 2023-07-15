@@ -1,41 +1,39 @@
 {
-  "name": "Yukki Music Bot",
-  "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
-  "repository": "https://github.com/01014797417/hi",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-  "keywords": [
-  "python3",
-  "telegram",
-  "bot",
-  "Yukki",
-  "YukkiMusicBot",
-  "telegram-bot",
-  "pyrogram"
-  ],
-  "repository": "https://github.com/01014797417/hi",
-  "stack": "container",
-  "env": {
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": "",
-      "required": true
-    }
-  "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
+    "name": "Yukki Music Bot",
+    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Yukki",
+    "YukkiMusicBot",
+    "telegram-bot",
+    "pyrogram"
     ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "stack": "container",
+    "env": {
+      "SESSION_NAME2": {
+        "description": "ممممم",
+        "value": "",
+        "required": false},
     },
-    "stack": "container"
-}
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
