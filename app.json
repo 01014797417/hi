@@ -13,10 +13,21 @@
     ],
     "stack": "container",
     "env": {
+      "BOT_TOKEN": {
+        "description": "ممممم",
+        "value": "",
+        "required": true
+      },
       "SESSION_NAME2": {
         "description": "ممممم",
         "value": "",
-        "required": false},
+        "required": false
+      },
+      "SESSION_NAME": {
+        "description": "ممممم",
+        "value": "",
+        "required": true
+      }
     },
     "buildpacks": [
           {
