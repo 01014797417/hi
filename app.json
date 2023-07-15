@@ -16,19 +16,7 @@
       "BOT_TOKEN": {
         "description": "ممممم",
         "value": "",
-        "required": true
-      },
-      "SESSION_NAME2": {
-        "description": "ممممم",
-        "value": "",
-        "required": false
-      },
-      "SESSION_NAME": {
-        "description": "ممممم",
-        "value": "",
-        "required": true
-      }
-    },
+        "required": true}},
     "buildpacks": [
           {
               "url": "heroku/python"
