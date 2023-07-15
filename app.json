@@ -19,7 +19,7 @@
       "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
-    },
+    }
   "buildpacks": [
         {
             "url": "heroku/python"
