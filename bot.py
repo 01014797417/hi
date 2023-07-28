@@ -4,7 +4,7 @@ import random, asyncio
 
 API_ID = 8186557
 API_HASH = "efd77b34c69c164ce158037ff5a0d117"
-app = Client("ElNqYbx", api_id=API_ID, api_hash=API_HASH, session_string="AQBLwr3VGXTV668R5_bR6fnxiubxJc0RClvP8Iz20e4lgHDV-A8GECIKPP4qm0cITa-j0nOlVeoSzatEv0dt9K4zlm0GrY4CPg3dwg48NjaCPmOpbEQSsG9nNFn05kA2bPDe27Cz-r2nOarVwbC6BKFeWA_VJ3vc38EhtlyNWZkRqjEd3SIahJ5Nhy-1G12nrT0gmFixnQOGDMVBdtW38v4rBH9zjkMRLwDFeI8kFl13VO8FoxaPAHzW0NK1bIC7ryK0tEhCCWscjLr-qUhQ9mvJ6633AeAAwwMwMnZ17YtWUin1v5xUIc_ukxRZcYAd6KdPdC2Zq2ke1y8o1znvnlAAAAAW_0MWEA")
+app = Client("ElNqYbx", api_id=API_ID, api_hash=API_HASH, session_string="BAAMdAcBil1_AH_Tgdrdh9Sdjz5LnTfpSVnbElq-yXh6kCloi3Pwj93UZPtzShrrH6XSn5YaV2Ady6_6xUEqOzbmU3ZrBJpt4z0bW4VeDSDkhspOXf57OkQcHqtK3bmDuQ2z6M58_p47-s-Zofn621hb-bD8uNWkHiQX5Z6U4V214O4elkasdqxBPRFeRQfo818Yc-54m5vwQcQjdwVSskGO5nWObQRdBQNB8snNqt2NX3KCZoxPhiCoFRmIdy0AguLLkOLHfobFXntooNYG8Ne3Kh7-WVTYVubZ_KquaZstpyym3WlC5STfwYdzsdxb93spkjCMuINpU1H0CJUzNDIxAAAAAT8WB-oA")
 msg = {}
 lists = {}
 list = {}
