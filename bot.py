@@ -25,7 +25,7 @@ async def send(chat_id, tim):
      if not dialog.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
        continue
      try:
-          await app.forward_messages(dialog.chat.id, 1167237579, m)
+          await app.send_message(dialog.chat.id, m)
      except Exception as a:
         print(a)
 
@@ -71,12 +71,12 @@ async def setloops(client, message):
    ask = await client.ask(message.chat.id, "كم رساله تريد تعينها", filters.user(message.from_user.id))
    lop = int(ask.text) - 1
    ask1 = await client.ask(message.chat.id, "أرسل الرساله الاولي ", filters.user(message.from_user.id))
-   list[chat_id].append(ask1.id)
-   lists[chat_id].append(ask1.id)
+   list[chat_id].append(ask1.text)
+   lists[chat_id].append(ask1.text)
    for x in range(lop):
        askk = await client.ask(message.chat.id, "ارسل الرساله التاليه", filters.user(message.from_user.id))
-       list[chat_id].append(askk.id)
-       lists[chat_id].append(askk.id)
+       list[chat_id].append(askk.text)
+       lists[chat_id].append(askk.text)
        await askk.reply_text("تم حفظ الرساله بنجاح ")
    xx[chat_id] = True
    await message.reply_text("**تم تعين التكرار**")
